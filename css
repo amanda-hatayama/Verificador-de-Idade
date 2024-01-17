@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap");
+
+body {
+  background: radial-gradient(circle, #3b6666, #bff0f0);
+  font: normal 12pt Arial "Barlow Semi Condensed";
+  align-items: center;
+}
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  box-shadow: 9px 9px 10px rgb(44, 40, 40);
+}
+
+footer {
+  font-size: 11pt;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
+
+a {
+  font-size: 30px;
+  margin: 20px;
+  color: white;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
